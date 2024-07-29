@@ -9,8 +9,6 @@ script:
   - docker run akhil/docker-react npm run test -- --coverage
   # docker run -e CI=true akhil/docker-react npm run test
 
-
-
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
